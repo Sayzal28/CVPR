@@ -1,0 +1,5 @@
+--- Euclidean Results (k=32) ---
+MAP: 0.1640
+
+--- Mahalanobis Results (k=32) ---
+MAP: 0.1590

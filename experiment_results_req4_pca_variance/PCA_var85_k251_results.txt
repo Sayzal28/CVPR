@@ -1,0 +1,7 @@
+--- Results for 85% variance (k=251) ---
+
+--- Euclidean Results ---
+MAP: 0.1454
+
+--- Mahalanobis Results ---
+MAP: 0.1404

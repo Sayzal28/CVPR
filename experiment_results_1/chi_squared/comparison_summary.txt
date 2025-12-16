@@ -1,0 +1,21 @@
+EXPERIMENT COMPARISON SUMMARY
+======================================================================
+
+Experiment                MAP        Top-1 Acc   
+----------------------------------------------------------------------
+Q24_chi_squared           0.2131     0.5465      
+Q16_chi_squared           0.2131     0.5567      
+Q12_chi_squared           0.2126     0.5330      
+Q32_chi_squared           0.2126     0.5533      
+Q10_chi_squared           0.2120     0.5212      
+Q40_chi_squared           0.2116     0.5550      
+Q8_chi_squared            0.2098     0.5195      
+Q55_chi_squared           0.2097     0.5567      
+Q64_chi_squared           0.2083     0.5635      
+Q6_chi_squared            0.2019     0.4907      
+Q4_chi_squared            0.1942     0.4281      
+Q2_chi_squared            0.1442     0.2758      
+
+======================================================================
+Best performing: Q24_chi_squared
+MAP: 0.2131

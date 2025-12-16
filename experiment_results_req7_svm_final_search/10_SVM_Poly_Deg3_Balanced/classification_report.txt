@@ -1,0 +1,42 @@
+Experiment: 10_SVM_Poly_Deg3_Balanced
+Descriptor: /scratch/zs00774/CV/descriptors_1_4/globalRGBhisto_24
+
+--- PARAMETER GRID TESTED ---
+{'C': [0.1, 1, 10, 50], 'kernel': ['poly'], 'degree': [3]}
+
+--- BASE ESTIMATOR PARAMS ---
+{'class_weight': 'balanced'}
+
+--- BEST PARAMS FOUND ---
+{'C': 50, 'degree': 3, 'kernel': 'poly'}
+
+Training Time: 3.94s
+Overall Accuracy: 10.08%
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00         6
+           2       0.00      0.00      0.00         6
+           3       0.00      0.00      0.00         6
+           4       0.07      1.00      0.13         6
+           5       0.50      0.17      0.25         6
+           6       0.50      0.17      0.25         6
+           7       0.00      0.00      0.00         6
+           8       0.00      0.00      0.00         6
+           9       0.00      0.00      0.00         6
+          10       0.50      0.14      0.22         7
+          11       0.00      0.00      0.00         6
+          12       0.00      0.00      0.00         7
+          13       0.50      0.33      0.40         6
+          14       0.00      0.00      0.00         6
+          15       0.00      0.00      0.00         5
+          16       0.00      0.00      0.00         6
+          17       0.00      0.00      0.00         6
+          18       0.25      0.17      0.20         6
+          19       0.00      0.00      0.00         6
+          20       0.00      0.00      0.00         4
+
+    accuracy                           0.10       119
+   macro avg       0.12      0.10      0.07       119
+weighted avg       0.12      0.10      0.08       119

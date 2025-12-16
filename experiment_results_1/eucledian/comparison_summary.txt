@@ -1,0 +1,21 @@
+EXPERIMENT COMPARISON SUMMARY
+======================================================================
+
+Experiment                MAP        Top-1 Acc   
+----------------------------------------------------------------------
+Q8_euclidean              0.1662     0.4162      
+Q6_euclidean              0.1646     0.4078      
+Q10_euclidean             0.1637     0.4281      
+Q12_euclidean             0.1617     0.4332      
+Q4_euclidean              0.1573     0.3469      
+Q16_euclidean             0.1554     0.4264      
+Q24_euclidean             0.1464     0.4230      
+Q32_euclidean             0.1388     0.4247      
+Q40_euclidean             0.1334     0.3976      
+Q55_euclidean             0.1263     0.3807      
+Q64_euclidean             0.1225     0.3638      
+Q2_euclidean              0.1190     0.2420      
+
+======================================================================
+Best performing: Q8_euclidean
+MAP: 0.1662

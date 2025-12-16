@@ -1,0 +1,34 @@
+Experiment: SVM_RBF_C1
+Descriptor: /scratch/zs00774/CV/descriptors_3/spatial_grid_8x8_color_hist_texture_Q24_T16
+Kernel: poly, C: 0.5
+Training Time: 199.75s
+
+Overall Accuracy: 5.88%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00         6
+           2       0.00      0.00      0.00         6
+           3       0.00      0.00      0.00         6
+           4       0.00      0.00      0.00         6
+           5       0.00      0.00      0.00         6
+           6       0.00      0.00      0.00         6
+           7       0.00      0.00      0.00         6
+           8       0.00      0.00      0.00         6
+           9       0.00      0.00      0.00         6
+          10       0.00      0.00      0.00         7
+          11       0.00      0.00      0.00         6
+          12       0.06      1.00      0.11         7
+          13       0.00      0.00      0.00         6
+          14       0.00      0.00      0.00         6
+          15       0.00      0.00      0.00         5
+          16       0.00      0.00      0.00         6
+          17       0.00      0.00      0.00         6
+          18       0.00      0.00      0.00         6
+          19       0.00      0.00      0.00         6
+          20       0.00      0.00      0.00         4
+
+    accuracy                           0.06       119
+   macro avg       0.00      0.05      0.01       119
+weighted avg       0.00      0.06      0.01       119

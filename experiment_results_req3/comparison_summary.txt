@@ -1,0 +1,65 @@
+EXPERIMENT COMPARISON SUMMARY
+======================================================================
+
+Experiment                                                                  MAP        Top-1 Acc   
+----------------------------------------------------------------------------------------------------
+spatial_grid_8x8_color_hist_texture_Q24_T16 (Dist: l1)                      0.2442     0.5465      
+spatial_grid_8x8_color_hist_texture_Q24_T32 (Dist: l1)                      0.2442     0.5550      
+spatial_grid_8x8_color_hist_texture_Q16_T32 (Dist: chi_squared)             0.2381     0.5482      
+spatial_grid_8x8_color_hist_texture_Q16_T16 (Dist: chi_squared)             0.2372     0.5415      
+spatial_grid_8x8_color_hist_texture_Q24_T8 (Dist: l1)                       0.2344     0.5296      
+spatial_grid_8x8_color_hist_texture_Q16_T8 (Dist: chi_squared)              0.2312     0.5364      
+spatial_grid_8x8_color_hist_Q16 (Dist: chi_squared)                         0.2271     0.5364      
+spatial_grid_8x8_color_hist_Q24 (Dist: l1)                                  0.2256     0.5415      
+spatial_grid_8x8_color_hist_texture_Q16_T4 (Dist: chi_squared)              0.2189     0.5245      
+spatial_grid_8x8_color_hist_texture_Q24_T4 (Dist: l1)                       0.2081     0.5025      
+spatial_grid_8x8_color_hist_Q16 (Dist: cosine)                              0.1919     0.4585      
+spatial_grid_8x8_color_hist_texture_Q16_T32 (Dist: cosine)                  0.1876     0.4873      
+spatial_grid_8x8_avg_color_texture_T16 (Dist: l1)                           0.1869     0.4298      
+spatial_grid_8x8_avg_color_texture_T32 (Dist: l1)                           0.1868     0.4281      
+spatial_grid_8x8_avg_color_texture_T16 (Dist: cosine)                       0.1794     0.4365      
+spatial_grid_8x8_avg_color_texture_T32 (Dist: chi_squared)                  0.1778     0.4061      
+spatial_grid_8x8_avg_color_texture_T8 (Dist: l1)                            0.1776     0.4129      
+spatial_grid_8x8_avg_color_texture_T16 (Dist: chi_squared)                  0.1774     0.4095      
+spatial_grid_8x8_avg_color_texture_T8 (Dist: cosine)                        0.1766     0.4315      
+spatial_grid_8x8_avg_color_texture_T32 (Dist: cosine)                       0.1765     0.4349      
+spatial_grid_8x8_color_hist_texture_Q16_T16 (Dist: cosine)                  0.1727     0.4501      
+spatial_grid_8x8_avg_color_texture_T8 (Dist: chi_squared)                   0.1687     0.3959      
+spatial_grid_8x8_avg_color_texture_T16 (Dist: euclidean)                    0.1646     0.3959      
+spatial_grid_8x8_avg_color_texture_T32 (Dist: euclidean)                    0.1625     0.4027      
+spatial_grid_8x8_avg_color_texture_T8 (Dist: euclidean)                     0.1622     0.3858      
+spatial_grid_8x8_avg_color (Dist: cosine)                                   0.1614     0.3959      
+spatial_grid_8x8_avg_color (Dist: l1)                                       0.1581     0.3875      
+spatial_grid_8x8_avg_color_texture_T4 (Dist: cosine)                        0.1561     0.3723      
+spatial_grid_8x8_avg_color (Dist: chi_squared)                              0.1560     0.3723      
+spatial_grid_8x8_texture_T32 (Dist: l1)                                     0.1527     0.3046      
+spatial_grid_8x8_avg_color (Dist: euclidean)                                0.1526     0.3672      
+spatial_grid_8x8_texture_T16 (Dist: l1)                                     0.1518     0.2927      
+spatial_grid_8x8_color_hist_texture_Q8_T16 (Dist: euclidean)                0.1513     0.4044      
+spatial_grid_8x8_color_hist_texture_Q16_T8 (Dist: cosine)                   0.1511     0.4078      
+spatial_grid_8x8_texture_T32 (Dist: cosine)                                 0.1509     0.2876      
+spatial_grid_8x8_avg_color_texture_T4 (Dist: l1)                            0.1506     0.3756      
+spatial_grid_8x8_color_hist_texture_Q8_T32 (Dist: euclidean)                0.1503     0.4010      
+spatial_grid_8x8_color_hist_texture_Q8_T8 (Dist: euclidean)                 0.1498     0.4044      
+spatial_grid_8x8_color_hist_Q8 (Dist: euclidean)                            0.1468     0.3926      
+spatial_grid_8x8_avg_color_texture_T4 (Dist: euclidean)                     0.1463     0.3536      
+spatial_grid_8x8_avg_color_texture_T4 (Dist: chi_squared)                   0.1438     0.3452      
+spatial_grid_8x8_texture_T16 (Dist: cosine)                                 0.1436     0.2724      
+spatial_grid_8x8_color_hist_texture_Q8_T4 (Dist: euclidean)                 0.1417     0.3773      
+spatial_grid_8x8_texture_T32 (Dist: chi_squared)                            0.1416     0.2673      
+spatial_grid_8x8_texture_T16 (Dist: chi_squared)                            0.1400     0.2673      
+spatial_grid_8x8_texture_T8 (Dist: l1)                                      0.1358     0.2589      
+spatial_grid_8x8_texture_T32 (Dist: euclidean)                              0.1275     0.2538      
+spatial_grid_8x8_texture_T16 (Dist: euclidean)                              0.1265     0.2403      
+spatial_grid_8x8_texture_T8 (Dist: cosine)                                  0.1262     0.2335      
+spatial_grid_8x8_texture_T8 (Dist: chi_squared)                             0.1257     0.2470      
+spatial_grid_8x8_color_hist_texture_Q16_T4 (Dist: cosine)                   0.1240     0.3283      
+spatial_grid_8x8_texture_T8 (Dist: euclidean)                               0.1176     0.2166      
+spatial_grid_8x8_texture_T4 (Dist: l1)                                      0.0848     0.1438      
+spatial_grid_8x8_texture_T4 (Dist: chi_squared)                             0.0816     0.1438      
+spatial_grid_8x8_texture_T4 (Dist: cosine)                                  0.0813     0.1540      
+spatial_grid_8x8_texture_T4 (Dist: euclidean)                               0.0803     0.1455      
+
+====================================================================================================
+Best performing: spatial_grid_8x8_color_hist_texture_Q24_T16 (Dist: l1)
+MAP: 0.2442

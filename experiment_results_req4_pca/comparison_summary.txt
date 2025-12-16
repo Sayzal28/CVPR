@@ -1,0 +1,21 @@
+PCA & MAHALANOBIS EXPERIMENT SUMMARY (REQ 4)
+======================================================================
+
+Experiment                                                   MAP        Top-1 Acc   
+-------------------------------------------------------------------------------------
+PCA_k16_Euclidean_on_globalRGBhisto_24                       0.1649     0.3587      
+PCA_k64_Euclidean_on_globalRGBhisto_24                       0.1646     0.4467      
+PCA_k32_Euclidean_on_globalRGBhisto_24                       0.1640     0.3824      
+PCA_k16_Mahalanobis_on_globalRGBhisto_24                     0.1629     0.3553      
+PCA_k32_Mahalanobis_on_globalRGBhisto_24                     0.1590     0.3841      
+PCA_k64_Mahalanobis_on_globalRGBhisto_24                     0.1571     0.4433      
+PCA_k128_Euclidean_on_globalRGBhisto_24                      0.1536     0.4569      
+PCA_k128_Mahalanobis_on_globalRGBhisto_24                    0.1412     0.4247      
+PCA_k256_Euclidean_on_globalRGBhisto_24                      0.1260     0.4027      
+PCA_k256_Mahalanobis_on_globalRGBhisto_24                    0.1101     0.3249      
+PCA_k512_Euclidean_on_globalRGBhisto_24                      0.1052     0.3350      
+PCA_k512_Mahalanobis_on_globalRGBhisto_24                    0.0753     0.1506      
+
+=====================================================================================
+Best performing: PCA_k16_Euclidean_on_globalRGBhisto_24
+MAP: 0.1649

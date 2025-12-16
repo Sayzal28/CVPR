@@ -1,0 +1,51 @@
+VISUAL SEARCH EVALUATION RESULTS
+============================================================
+
+Mean Average Precision (MAP): 0.2057
+
+Average Precision per Class:
+  Class 1: 0.1771 (from 30 queries)
+  Class 2: 0.4242 (from 30 queries)
+  Class 3: 0.1047 (from 30 queries)
+  Class 4: 0.2314 (from 30 queries)
+  Class 5: 0.1681 (from 30 queries)
+  Class 6: 0.1874 (from 30 queries)
+  Class 7: 0.2986 (from 30 queries)
+  Class 8: 0.3204 (from 30 queries)
+  Class 9: 0.2965 (from 30 queries)
+  Class 10: 0.2077 (from 32 queries)
+  Class 11: 0.0838 (from 30 queries)
+  Class 12: 0.0795 (from 34 queries)
+  Class 13: 0.4263 (from 30 queries)
+  Class 14: 0.1163 (from 30 queries)
+  Class 15: 0.1426 (from 24 queries)
+  Class 16: 0.0969 (from 30 queries)
+  Class 17: 0.3398 (from 30 queries)
+  Class 18: 0.1142 (from 30 queries)
+  Class 19: 0.1073 (from 30 queries)
+  Class 20: 0.1898 (from 21 queries)
+
+Top-1 Classification Accuracy: 0.5127
+
+============================================================
+Confusion Matrix (counts):
+[[11  0  1  1  2  0  0  0  6  1  0  6  0  0  0  1  0  0  1  0]
+ [ 0 28  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  3  6  0  0  0  2  2  2  0  0  0  0  2  1  2  7  0  3  0]
+ [ 0  1  0 24  0  0  0  0  0  1  0  2  0  0  0  1  0  0  1  0]
+ [ 3  0  1  0 17  0  0  0  6  0  1  1  0  0  0  0  0  0  1  0]
+ [ 0  0  1  1  0 17  3  3  0  0  0  0  0  2  0  3  0  0  0  0]
+ [ 0  0  0  0  0  1 16  9  0  0  0  0  0  2  2  0  0  0  0  0]
+ [ 0  0  0  0  0  0  2 19  0  0  0  1  0  4  2  0  1  1  0  0]
+ [ 2  0  0  0  1  0  0  0 26  0  0  1  0  0  0  0  0  0  0  0]
+ [ 3  0  0  0  3  0  0  0  1 17  3  3  0  2  0  0  0  0  0  0]
+ [ 0  1  0  3  1  1  1  1  0  1  6  1  2  4  3  3  1  1  0  0]
+ [ 1  1  1  1  0  0  0  2  3  1  1 12  0  2  3  3  0  2  0  1]
+ [ 0  0  0  0  0  0  1  2  0  0  0  1 26  0  0  0  0  0  0  0]
+ [ 2  0  0  0  0  0  3  3  0  0  0  5  0  7  2  5  2  1  0  0]
+ [ 0  0  0  0  0  2  0  2  0  1  1  0  1  1 13  0  0  1  1  1]
+ [ 0  0  0  0  1  1  1  4  0  0  2  1  1  5  0 13  0  0  1  0]
+ [ 0  0  5  0  0  0  0  1  1  0  0  0  0  1  0  0 22  0  0  0]
+ [ 0  0  0  1  0  0  0  5  1  0  2  0  0  1  0  3  1 10  1  5]
+ [ 2  0  0  0  1  1  3  0  2  0  0  2  1  2  1  2  7  0  6  0]
+ [ 0  2  1  0  0  0  2  2  0  0  1  0  0  0  0  1  0  5  0  7]]

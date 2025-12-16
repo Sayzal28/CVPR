@@ -1,0 +1,42 @@
+Experiment: 11_Poly_Deg3_NewC
+Descriptor: /scratch/zs00774/CV/descriptors_1_4/globalRGBhisto_24
+
+--- PARAMETER GRID TESTED ---
+{'C': [0.8, 8, 80, 800], 'kernel': ['poly']}
+
+--- BASE ESTIMATOR PARAMS ---
+{'degree': 3}
+
+--- BEST PARAMS FOUND ---
+{'C': 800, 'kernel': 'poly'}
+
+Training Time: 3.92s
+Overall Accuracy: 16.81%
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+           1       0.50      0.33      0.40         6
+           2       0.50      0.17      0.25         6
+           3       0.00      0.00      0.00         6
+           4       0.09      1.00      0.17         6
+           5       0.50      0.17      0.25         6
+           6       0.50      0.17      0.25         6
+           7       0.00      0.00      0.00         6
+           8       0.00      0.00      0.00         6
+           9       0.50      0.33      0.40         6
+          10       0.00      0.00      0.00         7
+          11       0.00      0.00      0.00         6
+          12       0.33      0.29      0.31         7
+          13       0.50      0.33      0.40         6
+          14       0.00      0.00      0.00         6
+          15       0.67      0.40      0.50         5
+          16       0.00      0.00      0.00         6
+          17       0.00      0.00      0.00         6
+          18       0.25      0.17      0.20         6
+          19       0.00      0.00      0.00         6
+          20       0.00      0.00      0.00         4
+
+    accuracy                           0.17       119
+   macro avg       0.22      0.17      0.16       119
+weighted avg       0.22      0.17      0.16       119

@@ -1,0 +1,42 @@
+Experiment: 3_RBF_gamma_scale
+Descriptor: /scratch/zs00774/CV/descriptors_1_4/globalRGBhisto_24
+
+--- PARAMETER GRID TESTED ---
+{'C': [0.8, 8, 80, 800], 'kernel': ['rbf']}
+
+--- BASE ESTIMATOR PARAMS ---
+{'gamma': 'scale'}
+
+--- BEST PARAMS FOUND ---
+{'C': 80, 'kernel': 'rbf'}
+
+Training Time: 5.22s
+Overall Accuracy: 36.97%
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+           1       0.33      0.33      0.33         6
+           2       0.80      0.67      0.73         6
+           3       0.25      0.17      0.20         6
+           4       0.62      0.83      0.71         6
+           5       1.00      0.17      0.29         6
+           6       1.00      0.50      0.67         6
+           7       0.50      0.17      0.25         6
+           8       1.00      0.50      0.67         6
+           9       0.75      0.50      0.60         6
+          10       0.25      0.29      0.27         7
+          11       0.00      0.00      0.00         6
+          12       0.20      0.29      0.24         7
+          13       0.15      1.00      0.27         6
+          14       0.17      0.17      0.17         6
+          15       0.57      0.80      0.67         5
+          16       1.00      0.17      0.29         6
+          17       0.43      0.50      0.46         6
+          18       0.00      0.00      0.00         6
+          19       0.33      0.17      0.22         6
+          20       1.00      0.25      0.40         4
+
+    accuracy                           0.37       119
+   macro avg       0.52      0.37      0.37       119
+weighted avg       0.50      0.37      0.37       119

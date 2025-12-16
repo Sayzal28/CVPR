@@ -1,0 +1,20 @@
+SVM EXPERIMENT COMPARISON SUMMARY
+====================================================================================================
+
+Experiment                          Accuracy     Train Time (s)  Best Params
+----------------------------------------------------------------------------------------------------
+1_SVM_Linear_Fine_C                 0.3950       5.87            {'C': 0.01, 'kernel': 'linear'}
+2_SVM_Linear_Fine_C_Balanced        0.3950       5.23            {'C': 0.01, 'kernel': 'linear'}
+3_SVM_RBF_Broad_Search              0.3697       16.62           {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+5_SVM_RBF_Fine_Search               0.3697       18.53           {'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+4_SVM_RBF_Broad_Balanced            0.3613       19.73           {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+6_SVM_RBF_Fine_Balanced             0.3613       16.13           {'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+7_SVM_Poly_Deg2_Search              0.2101       4.08            {'C': 50, 'degree': 2, 'kernel': 'poly'}
+8_SVM_Poly_Deg2_Balanced            0.2101       4.18            {'C': 50, 'degree': 2, 'kernel': 'poly'}
+9_SVM_Poly_Deg3_Search              0.1008       3.88            {'C': 50, 'degree': 3, 'kernel': 'poly'}
+10_SVM_Poly_Deg3_Balanced           0.1008       3.94            {'C': 50, 'degree': 3, 'kernel': 'poly'}
+
+====================================================================================================
+Best performing: 1_SVM_Linear_Fine_C
+Best Accuracy: 0.3950
+Best Params: {'C': 0.01, 'kernel': 'linear'}

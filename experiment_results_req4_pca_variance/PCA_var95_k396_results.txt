@@ -1,0 +1,7 @@
+--- Results for 95% variance (k=396) ---
+
+--- Euclidean Results ---
+MAP: 0.1132
+
+--- Mahalanobis Results ---
+MAP: 0.1046

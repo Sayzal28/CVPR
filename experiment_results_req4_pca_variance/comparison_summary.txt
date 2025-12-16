@@ -1,0 +1,17 @@
+PCA & MAHALANOBIS EXPERIMENT SUMMARY (REQ 4)
+======================================================================
+
+Experiment                                                   MAP        Top-1 Acc   
+-------------------------------------------------------------------------------------
+PCA_var85_k251_Euclidean_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.1454     0.4179      
+PCA_var85_k251_Mahalanobis_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.1404     0.3875      
+PCA_var90_k309_Euclidean_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.1341     0.3841      
+PCA_var90_k309_Mahalanobis_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.1267     0.3604      
+PCA_var95_k396_Euclidean_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.1132     0.3164      
+PCA_var95_k396_Mahalanobis_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.1046     0.2876      
+PCA_var99_k520_Euclidean_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.0884     0.2064      
+PCA_var99_k520_Mahalanobis_on_spatial_grid_8x8_color_hist_texture_Q24_T16 0.0790     0.1574      
+
+=====================================================================================
+Best performing: PCA_var85_k251_Euclidean_on_spatial_grid_8x8_color_hist_texture_Q24_T16
+MAP: 0.1454

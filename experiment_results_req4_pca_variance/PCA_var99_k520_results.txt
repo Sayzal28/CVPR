@@ -1,0 +1,7 @@
+--- Results for 99% variance (k=520) ---
+
+--- Euclidean Results ---
+MAP: 0.0884
+
+--- Mahalanobis Results ---
+MAP: 0.0790

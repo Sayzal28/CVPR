@@ -1,0 +1,42 @@
+Experiment: 1_Lin_C_Search_New
+Descriptor: /scratch/zs00774/CV/descriptors_1_4/globalRGBhisto_24
+
+--- PARAMETER GRID TESTED ---
+{'C': [0.8, 8, 80, 800], 'kernel': ['linear']}
+
+--- BASE ESTIMATOR PARAMS ---
+{}
+
+--- BEST PARAMS FOUND ---
+{'C': 0.8, 'kernel': 'linear'}
+
+Training Time: 4.17s
+Overall Accuracy: 39.50%
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+           1       0.43      0.50      0.46         6
+           2       0.50      0.67      0.57         6
+           3       0.17      0.17      0.17         6
+           4       0.67      0.67      0.67         6
+           5       0.33      0.17      0.22         6
+           6       0.67      0.67      0.67         6
+           7       0.29      0.33      0.31         6
+           8       0.40      0.33      0.36         6
+           9       0.60      0.50      0.55         6
+          10       1.00      0.29      0.44         7
+          11       0.50      0.17      0.25         6
+          12       0.15      0.29      0.20         7
+          13       0.45      0.83      0.59         6
+          14       0.17      0.17      0.17         6
+          15       0.44      0.80      0.57         5
+          16       0.25      0.17      0.20         6
+          17       0.27      0.50      0.35         6
+          18       0.33      0.17      0.22         6
+          19       0.50      0.17      0.25         6
+          20       0.67      0.50      0.57         4
+
+    accuracy                           0.39       119
+   macro avg       0.44      0.40      0.39       119
+weighted avg       0.44      0.39      0.38       119

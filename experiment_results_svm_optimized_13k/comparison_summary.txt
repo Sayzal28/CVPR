@@ -1,0 +1,14 @@
+SVM EXPERIMENT COMPARISON SUMMARY
+====================================================================================================
+
+Experiment                          Accuracy     Train Time (s)  Best Params
+----------------------------------------------------------------------------------------------------
+1_LinearKernel                      0.5126       1291.71         {'C': 0.01, 'kernel': 'linear'}
+2_LinearKernel_Balanced             0.5126       1294.18         {'C': 0.01, 'kernel': 'linear'}
+3_RBF_HighDim                       0.2941       6716.72         {'C': 100, 'gamma': 1e-06, 'kernel': 'rbf'}
+4_RBF_HighDim_Balanced              0.2941       7037.25         {'C': 100, 'gamma': 1e-06, 'kernel': 'rbf'}
+
+====================================================================================================
+Best performing: 1_LinearKernel
+Best Accuracy: 0.5126
+Best Params: {'C': 0.01, 'kernel': 'linear'}

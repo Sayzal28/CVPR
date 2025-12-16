@@ -1,0 +1,42 @@
+Experiment: 7_SVM_Poly_Deg2_Search
+Descriptor: /scratch/zs00774/CV/descriptors_1_4/globalRGBhisto_24
+
+--- PARAMETER GRID TESTED ---
+{'C': [0.1, 1, 10, 50], 'kernel': ['poly'], 'degree': [2]}
+
+--- BASE ESTIMATOR PARAMS ---
+{}
+
+--- BEST PARAMS FOUND ---
+{'C': 50, 'degree': 2, 'kernel': 'poly'}
+
+Training Time: 4.08s
+Overall Accuracy: 21.01%
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+           1       0.50      0.33      0.40         6
+           2       0.50      0.33      0.40         6
+           3       0.00      0.00      0.00         6
+           4       0.12      1.00      0.22         6
+           5       0.50      0.17      0.25         6
+           6       0.33      0.17      0.22         6
+           7       0.00      0.00      0.00         6
+           8       0.00      0.00      0.00         6
+           9       0.33      0.33      0.33         6
+          10       0.00      0.00      0.00         7
+          11       0.00      0.00      0.00         6
+          12       0.12      0.29      0.17         7
+          13       0.71      0.83      0.77         6
+          14       0.00      0.00      0.00         6
+          15       0.67      0.40      0.50         5
+          16       0.20      0.17      0.18         6
+          17       0.00      0.00      0.00         6
+          18       0.25      0.17      0.20         6
+          19       0.00      0.00      0.00         6
+          20       0.00      0.00      0.00         4
+
+    accuracy                           0.21       119
+   macro avg       0.21      0.21      0.18       119
+weighted avg       0.21      0.21      0.18       119

@@ -1,0 +1,22 @@
+SVM EXPERIMENT COMPARISON SUMMARY
+====================================================================================================
+
+Experiment                          Accuracy     Train Time (s)  Best Params
+----------------------------------------------------------------------------------------------------
+1_Lin_C_Search_New                  0.3950       4.17            {'C': 0.8, 'kernel': 'linear'}
+2_Lin_C_Search_New_Balanced         0.3950       3.48            {'C': 0.8, 'kernel': 'linear'}
+3_RBF_gamma_scale                   0.3697       5.22            {'C': 80, 'kernel': 'rbf'}
+4_RBF_gamma_scale_Balanced          0.3529       5.08            {'C': 8, 'kernel': 'rbf'}
+9_Poly_Deg2_NewC                    0.3025       3.86            {'C': 800, 'kernel': 'poly'}
+10_Poly_Deg2_NewC_Balanced          0.3025       3.90            {'C': 800, 'kernel': 'poly'}
+5_RBF_New_Gammas                    0.1681       15.38           {'C': 8, 'gamma': 0.005, 'kernel': 'rbf'}
+6_RBF_New_Gammas_Balanced           0.1681       15.77           {'C': 8, 'gamma': 0.005, 'kernel': 'rbf'}
+11_Poly_Deg3_NewC                   0.1681       3.92            {'C': 800, 'kernel': 'poly'}
+12_Poly_Deg3_NewC_Balanced          0.1597       3.71            {'C': 800, 'kernel': 'poly'}
+7_RBF_lab_gamma                     0.0588       5.98            {'C': 0.8, 'kernel': 'rbf'}
+8_RBF_lab_gamma_Balanced            0.0588       5.68            {'C': 0.8, 'kernel': 'rbf'}
+
+====================================================================================================
+Best performing: 1_Lin_C_Search_New
+Best Accuracy: 0.3950
+Best Params: {'C': 0.8, 'kernel': 'linear'}

@@ -1,0 +1,34 @@
+Experiment: SVM_Linear_C1
+Descriptor: /scratch/zs00774/CV/descriptors_3/spatial_grid_8x8_color_hist_texture_Q24_T16
+Kernel: linear, C: 1.0
+Training Time: 189.79s
+
+Overall Accuracy: 51.26%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.33      0.33      0.33         6
+           2       1.00      0.83      0.91         6
+           3       0.20      0.33      0.25         6
+           4       0.75      1.00      0.86         6
+           5       0.67      0.67      0.67         6
+           6       0.83      0.83      0.83         6
+           7       0.33      0.50      0.40         6
+           8       0.00      0.00      0.00         6
+           9       0.57      0.67      0.62         6
+          10       0.71      0.71      0.71         7
+          11       1.00      0.33      0.50         6
+          12       0.29      0.29      0.29         7
+          13       0.67      1.00      0.80         6
+          14       0.67      0.33      0.44         6
+          15       0.50      1.00      0.67         5
+          16       0.50      0.17      0.25         6
+          17       0.33      0.50      0.40         6
+          18       0.25      0.17      0.20         6
+          19       0.67      0.33      0.44         6
+          20       0.33      0.25      0.29         4
+
+    accuracy                           0.51       119
+   macro avg       0.53      0.51      0.49       119
+weighted avg       0.53      0.51      0.49       119
